@@ -12,12 +12,12 @@ class Solution:
         }
         
         # Result Variable
-        r = ''
+        r1 = ''
         
         
         for n in [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]:
             # If n in list then add the roman value to result variable
             while n <= num:
-                r += num_map[n]
+                r1 += num_map[n]
                 num-=n
-        return r
+        return r1
