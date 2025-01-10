@@ -7,3 +7,4 @@ class Solution:
                     inds.append(i)
                     inds.append(j)
         return inds
+        
