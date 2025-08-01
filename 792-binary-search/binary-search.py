@@ -6,9 +6,9 @@ class Solution:
             mid = (left + right) // 2
             if nums[mid] == target:
                 return mid
-            elif nums[mid] <= target:
+            elif target > nums[mid]:
                 left += 1
-            else:
+            elif target < nums[mid]:
                 right -= 1
         return -1
     
